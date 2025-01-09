@@ -8,6 +8,36 @@
     <title>Blog 7</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .fit-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        @media (max-width: 600px) {
+            .fit-image {
+                width: 100%;
+                height: auto;
+            }
+        }
+        p {
+            text-align: justify;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,10 +53,10 @@
     <main>
         <article>
             <h2>Virtual Reality</h2>
-            <img src="images/tech7.jpg" alt="Blog 7 Image">
+            <img src="bg7.jpg" alt="Blog 7 Image" class="fit-image">
             <p>Virtual Reality.</p>
             <div class="ad-space">
-                <div>
+                <div></div>
                     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <ins class="adsbygoogle"
                          style="display:block"
@@ -38,9 +68,13 @@
                     </script>
                 </div>
             </div>
-            <p>**Virtual Reality (VR)** is a rapidly evolving technology that immerses users in a digitally generated environment, typically through the use of headsets, sensors, and other input devices. VR has moved beyond gaming and entertainment into a wide range of industries, offering innovative ways to engage, interact, and experience the digital world. Here's an overview of what VR is and how it is shaping the future:
-
-1. **Immersive Experiences**: At its core, VR is designed to provide highly immersive experiences that simulate real or imagined environments. When users wear VR headsets, they are transported into 3D worlds that feel as though they are physically present. The experience can be further enhanced with additional equipment such as gloves, haptic feedback devices, and motion controllers that allow users to interact with their surroundings. This immersive capability makes VR ideal for applications that require deep engagement and sensory stimulation.
+            <p>**Virtual Reality (VR)** is a rapidly evolving technology that immerses users in a digitally generated environment, typically through the use of headsets, sensors, and other input devices. VR has moved beyond gaming and entertainment into a wide range of industries, offering innovative ways to engage, interact, and experience the digital world. Here's an overview of what VR is and how it is shaping the future:</p>
+            
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YLb1gnmsceA?si=v7EfFxg8Db1RA4Ln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <p>1. **Immersive Experiences**: At its core, VR is designed to provide highly immersive experiences that simulate real or imagined environments. When users wear VR headsets, they are transported into 3D worlds that feel as though they are physically present. The experience can be further enhanced with additional equipment such as gloves, haptic feedback devices, and motion controllers that allow users to interact with their surroundings. This immersive capability makes VR ideal for applications that require deep engagement and sensory stimulation.
 
 2. **Gaming and Entertainment**: The gaming industry is one of the primary drivers of VR technology. VR gaming allows players to enter fully interactive, 3D environments where they can engage with objects and characters in ways traditional gaming cannot replicate. Virtual reality arcades and home-based VR systems like the Oculus Quest and PlayStation VR are becoming more popular, offering users unparalleled immersion in their favorite video games. In addition to gaming, VR is transforming the entertainment industry, allowing for new forms of storytelling, such as interactive movies and live events viewed from a first-person perspective.
 
@@ -63,6 +97,19 @@
 **Challenges and Future Potential**: Despite its growing popularity, VR faces challenges such as the need for high-performance hardware, the potential for motion sickness, and the accessibility of technology. As the technology continues to evolve, it is expected that VR devices will become more affordable, user-friendly, and accessible to a wider audience. Advances in wireless connectivity, such as 5G, will also improve the speed and quality of VR experiences, making them more seamless and interactive.
 
 In conclusion, virtual reality is transforming a wide array of industries by offering new, immersive ways to experience, learn, work, and socialize. As VR technology continues to advance, its applications will only expand, creating opportunities for greater innovation and more engaging experiences in our digital lives.</p>
+            
+            <p><strong>Virtual Reality (VR)</strong> is a technology that creates a computer-generated world that you can step into and explore as if it were real. You wear a special headset with screens in front of your eyes, which makes you feel like you’re actually inside a different place. Let’s break down what VR is, how it works, and where it’s used.</p>
+            
+            <h3>1. How Virtual Reality Works</h3>
+            <p>When you put on a VR headset, the screen shows images that change as you move your head. This tricks your brain into thinking you are inside the virtual world. Some VR systems also use special controllers for your hands, allowing you to interact with objects. More advanced systems may even include gloves, suits, or sensors that let you feel touch or move your entire body.</p>
+            
+            <h3>2. Where is VR Used?</h3>
+            <p>VR is not just for fun—it has many real-life uses!</p>
+            <ul>
+                <li><strong>Gaming</strong>: In VR games, you can fight battles, explore new worlds, or race cars like you’re really there.</li>
+                <li><strong>Education</strong>: VR can create realistic environments for learning, like exploring space, walking through history, or practicing science experiments.</li>
+                <li><strong>Healthcare</strong>: Doctors use VR to practice surgeries, and it helps treat patients with anxiety or phobias by simulating their fears.</li>
+            </ul>
         </article>
     </main>
     <footer>
